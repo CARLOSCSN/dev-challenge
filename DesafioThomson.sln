@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.218
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{241AF8B6-38D7-4761-AC45-48E8D60C73E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Thomson", "src\Desafio.Thomson\Desafio.Thomson.csproj", "{09FC0DD6-81CD-4AF9-AA51-6FD3FDEC926A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Thomson.Test", "src\Desafio.Thomson.Test\Desafio.Thomson.Test.csproj", "{19C53B2D-958B-49C9-BEB2-E729F25EB245}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09FC0DD6-81CD-4AF9-AA51-6FD3FDEC926A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FC0DD6-81CD-4AF9-AA51-6FD3FDEC926A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FC0DD6-81CD-4AF9-AA51-6FD3FDEC926A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FC0DD6-81CD-4AF9-AA51-6FD3FDEC926A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C53B2D-958B-49C9-BEB2-E729F25EB245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C53B2D-958B-49C9-BEB2-E729F25EB245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C53B2D-958B-49C9-BEB2-E729F25EB245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C53B2D-958B-49C9-BEB2-E729F25EB245}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09FC0DD6-81CD-4AF9-AA51-6FD3FDEC926A} = {241AF8B6-38D7-4761-AC45-48E8D60C73E7}
+		{19C53B2D-958B-49C9-BEB2-E729F25EB245} = {241AF8B6-38D7-4761-AC45-48E8D60C73E7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98EF7103-B2B5-4C41-95C1-867823FB313B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DesafioBitium</title>
+
+    <link rel="stylesheet" href="~/css/site2.css" />
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Lato:300,400,400i,700'>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-theme.css" />
+
+    <script src="~/lib/jquery/dist/jquery.js" charset="utf-8"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js" charset="utf-8"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js" charset="utf-8"></script>
+    <script src="~/lib/notify/notify.js" charset="utf-8"></script>
+</head>
+<body>
+
+    <nav id="menu" class="bg-primary Fixed navbar navbar-default navbar-fixed-top navbar-toggleable-xl " role="navigation">
+        <div class="navbar-header">
+            <a id="toogle-menu-mobile" href="#menu-mobile" class="d-block float-xs-right hidden-xl-up"><span class="icon icon-nav-drawer icon-4x"></span></a>  
+            <a class="navbar-brand float-xs-left" href="/"><div class="logo-Bitium-negativo"></div></a>
+        </div>
+    </nav>
+
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+    
+    <footer>
+        <nav class="clearfix">
+            <ul class="left-links">
+				<li><a style="margin-left: 100px;">Bitium</a></li>
+            </ul>
+            
+            <ul class="right-links"> 
+                <li><a style="margin-right: 200px;">Bitium, Inc. © 2021</a></li>
+            </ul>
+                        
+        </nav>               
+    </footer>
+
+    <script src="~/js/site.js" charset="utf-8" asp-append-version="true"></script>   
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
